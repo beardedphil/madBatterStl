@@ -1,6 +1,6 @@
 {
   "hosting": {
-    "public": "dist/mad-batter-stl",
+    "public": "public",
     "ignore": [
       "firebase.json",
       "**/.*",

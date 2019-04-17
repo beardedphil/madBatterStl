@@ -1,5 +1,6 @@
 {
   "projects": {
-    "mad-batter-stl": "mad-batter-stl"
+    "mad-batter-stl": "mad-batter-stl",
+    "default": "mad-batter-stl"
   }
 }
