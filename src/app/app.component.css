@@ -44,7 +44,9 @@ p {
 }
 
 #top-image {
-	max-width: 22em;
+	width: 80%;
+	height: auto;
+	/* max-width: 22em; */
 	padding-bottom: 2em;
 }
 
@@ -63,7 +65,8 @@ p {
 }
 
 #about-image {
-	max-width: 21em;
+	width: 80%;
+	height: auto;
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
@@ -83,7 +86,8 @@ p {
 }
 
 #contact-image {
-	max-width: 21em;
+	width: 80%;
+	height: auto;
 	padding-top: 2em;
 	padding-bottom: 2em;
 }
