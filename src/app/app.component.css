@@ -1,8 +1,23 @@
 /* Colors */
-/* #771A7A, #272B35, #E55E2D, #00C19E, #065054 */
+/* Basic:  #005255, #00C59C, #9067AE, #ED8957, #FBCFB8 */
+/* Darker: #001414, #00C59C, #6C4884, #ED8957, #FBCFB8 */
+
+@font-face {
+  font-family: 'dianaBookRegular';
+  src: url('/src/assets/fonts/DianaBook.woff') format('woff');
+}
+
+body {
+  font-family: 'Oswald', sans-serif;
+}
+
+#mad-batter-link {
+  text-decoration: underline;
+  color: #005255;
+}
 
 .orange {
-	color: #E55E2D;
+	color: #ED8957;
 }
 .container {
 	padding-top: 3em;
@@ -16,31 +31,28 @@
 
 h1 {
 	font-size: 350%;
-	font-family: 'Modak', cursive;
 }
 
 h3 {
 	font-size: 175%;
-	font-family: 'Oswald', sans-serif;
 }
 
 p {
-	font-family: 'Oswald', sans-serif;
 	font-size: 140%;
 }
 
 #top-div {
-	background-color: #065054;
+	background-color: #FBCFB8;
 	text-align: center;
 }
 
 #top-header {
-	color: #E55E2D;
-	padding-top: 1.5em;
+	color: #9067AE;
+	padding-top: 2.5em;
 }
 
 .top-text {
-	color: #D8D4CA;
+	color: #005255;
 }
 
 #top-image {
@@ -50,18 +62,24 @@ p {
 	padding-bottom: 2em;
 }
 
+#logo {
+  width: 80%;
+  height: auto;
+  padding-bottom: 2em;
+}
+
 #about-div {
-	background-color: #00c19e;
+	background-color: #00C59C;
 	text-align: center;
 }
 
 #about-header {
-	color: #654054;
+	color: #6C4884;
 }
 
 #about-text {
 	padding: 0 4em;
-	color: #272B35;
+	color: #001414;
 }
 
 #about-image {
@@ -72,17 +90,17 @@ p {
 }
 
 #contact-div {
-	background-color: #065054;
+	background-color: #005255;
 	text-align: center;
 }
 
 #contact-header {
-	color: #E55E2D;
+	color: #ED8957;
 }
 
 #contact-text {
 	padding: 0 4em;
-	color: #D8D4CA;
+	color: #FBCFB8;
 }
 
 #contact-image {
